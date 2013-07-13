@@ -1,0 +1,122 @@
+body{background:rgba(255,255,255,1);font-family:'Lato', Arial;}
+*{margin:0;padding:0;outline:none;}
+
+header,nav,article,section,aside,footer,div{display:block;}
+img{max-width:100%;}
+a,a:hover,a:visited{text-decoration:none;}
+p{margin:20px 0;}
+
+.font-56{font-size:56px;}
+.font-36{font-size:36px;}
+.font-30{font-size:30px;}
+.font-24{font-size:24px;}
+.font-20{font-size:20px;}
+.font-18{font-size:18px;}
+.font-14{font-size:14px;}
+.font-10{font-size:10px;}
+.bold{font-weight:bold;}
+.bold-300{font-weight:300;}
+.bold-600{font-weight:600;}
+.blue-header{color:rgba(0,97,130,1);}
+.skyblue-header{color:rgba(0,192,212,1);}
+
+.same-para{margin:0;}
+.same-para:first-child{margin-top:10px;}
+.same-para:last-child{margin-bottom:10px;}
+.pink-button{display:block;font-size:18px;padding:10px 30px;margin:20px 0 5px 0;color:rgb(255,255,255);background:rgba(247,86,91,1);border-bottom:outset 5px rgba(247,86,91,1);}
+.blue-button{display:block;font-size:18px;padding:10px 30px;margin:5px 0;color:rgb(255,255,255);background:rgba(0,192,212,1);border-bottom:outset 5px rgba(0,192,212,1);}
+.button .pink-button{display:inline-block;}
+.button .blue-button{display:inline-block;}
+.line-break{width:80%;margin:50px auto;height:1px;background:rgba(255,255,255,0.5);border:none;}
+
+.header{width:100%;height:85px;}
+.header .company-logo{float:left;width:31.25%;}
+.header .company-logo .link-company-logo{display:block;width:100%;padding:9.5px 20px;}
+.header .navigation{float:right;width:50%;padding:10px 20px;}
+.header .navigation .social-nav{float:right;font-size:14px;}
+.header .navigation .social-nav a{float:left;margin:0 2px;color:rgb(179,179,179);}
+.header .navigation .social-nav .link-login{display:block;font-size:12.5px;padding:2px 10px;margin:0 20px;border:solid 1px rgb(179,179,179);}
+.header .navigation .social-nav .social-icons{display:block;height:25px;width:25px;}
+.header .navigation .social-nav .link-twitter{background:transparent url(../image-assets/social-icons.png) no-repeat 0px 0px;}
+.header .navigation .social-nav .link-facebook{background:transparent url(../image-assets/social-icons.png) no-repeat -25px 0px;}
+.header .navigation .nav-bar{float:right;font-size:14px;margin:5px 0 0 0;}
+.header .navigation .nav-bar a{float:left;margin:3px 10px;color:rgb(0,0,0);padding:3px 0px;}
+.header .navigation .nav-bar .link-get-algebrize{display:block;background:rgb(247,86,91);padding:3px 15px;color:rgb(255,255,255);}
+
+.banner{width:100%;height:600px;background:url(../image-assets/hero@2x.jpg) no-repeat;background-size:100%;}
+.banner .banner-text{width:940px;height:480px;margin:0 auto;}
+.banner .banner-text .grid-1{float:left;width:500px;height:360px;background:rgb(255,255,255);margin:50px 0 0 0;padding:60px;}
+.banner .banner-text .grid-1 p{color:rgb(0,0,0);}
+.banner .banner-text .grid-1 .block{float:left;width:105px;margin:10px;height:100px;font-size:11px;font-weight:600;text-align:center;}
+.banner .banner-text .grid-1 .block span{display:block;height:30px;}
+.banner .banner-text .grid-1 .block img{margin:10px 0 0 0;}
+.banner .banner-text .grid-2{float:left;width:240px;height:380px;background:rgba(0,0,0,0.45);color:rgb(255,255,255);margin:50px 0 0 0;padding:50px 40px;}
+.banner .banner-text .grid-2 p{color:rgb(255,255,255);}
+
+article[class^="container"]{float:left;padding:100px 0;width:100%;text-align:center;}
+article[class^="container"] p{}
+.container-1{display:block;background:rgba(255,255,255,1);}
+.container-1 .blocks{display:block;float:left;}
+.container-1 .block{float:left;display:block;width:341px;height:275px;}
+.container-1 .block p{padding:0 50px;}
+.container-1 .button{float:left;width:100%;}
+
+.container-2{display:block;background:rgba(0,192,212,1);color:rgba(255,255,255,1);}
+
+.container-3{display:block;background:rgba(255,255,255,1);color:rgba(0,0,0,1);}
+.container-3 .blocks{float:left;margin:50px 0;}
+.container-3 .block{float:left;display:block;width:321px;height:275px;margin:0 10px;}
+.container-3 .block img{padding:20px 75px;width:171px;}
+.container-3 .block .benefits-icon1{background:rgba(247,86,91,1);}
+.container-3 .block .benefits-icon2{background:rgba(0,192,212,1);}
+.container-3 .block .benefits-icon3{background:rgba(0,97,130,1);}
+.container-3 .block p{display:block;height:40px;padding:20px;background:rgba(242,242,242,1);border-bottom:solid 7px rgba(204,204,204,1);margin:0;}
+
+.container-4{display:block;background:rgba(242,242,242,1);color:rgba(0,0,0,1);}
+
+.container-5{display:block;background:rgba(242,242,242,1);border-top:solid 5px rgba(204,204,204,1);color:rgba(0,0,0,1);padding:0!important;}
+.container-5 .blocks{float:left;width:100%;}
+.container-5 .block{float:left;display:block;width:50%;padding:50px 0;}
+.container-5 .color{background:rgba(0,192,212,1);}
+.container-5 .block-left{float:right;width:462px;margin-right:50px;}
+.container-5 .block-right{float:left;width:462px;margin-left:50px;}
+
+.container-6{display:block;background:rgba(0,97,130,1);color:rgba(255,255,255,1);}
+
+.container-7{display:block;background:rgba(242,242,242,1);color:rgba(127,127,127,1);padding:0!important;}
+.container-7 .blocks{float:left;width:100%;}
+.container-7 .contact-company{float:left;display:block;width:60%;padding:50px 0;}
+.container-7 .product-company{float:left;}
+.container-7 .contact{float:left;margin-left:20px;text-align:left;}
+.container-7 .contact p{margin: 0;}
+.container-7 .contact .tag{margin:10px 0 0 0;color:rgba(0,0,0,1);}
+.container-7 .product-company p{margin:10px 0;}
+.container-7 .resources{float:left;display:block;width:40%;padding:50px 0;background:rgba(51,51,51,1);}
+.container-7 .block-left{float:right;width:564px;padding-right:50px;}
+.container-7 .block-right{float:left;width:330px;padding-left:80px;}
+.container-7 .product{float:left;margin:0 25px;text-align:left;}
+.container-7 .company{float:left;margin:0 25px;text-align:left;}
+.container-7 .resource-block{float:left;margin:0;text-align:left;}
+.container-7 .socialize{float:left;height:14px;width:14px;margin:10px 10px 10px 0;}
+
+@media all and (min-width:1024px){
+.resp{width:1024px;margin:0 auto;}
+.header{min-width:1024px;}
+}
+@media only screen 
+and (min-width : 769px) 
+and (max-width : 1023px) {
+.resp{width:768px;margin:0 auto;}
+.header{min-width:768px;}
+}
+@media only screen 
+and (min-width : 481px) 
+and (max-width : 768px) {
+.resp{width:100%;margin:0 auto;}
+.header{min-width:1024px;}
+}
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+.resp{width:100%;margin:0 auto;}
+}
